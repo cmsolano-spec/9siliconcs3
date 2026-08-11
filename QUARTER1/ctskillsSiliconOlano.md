@@ -21,7 +21,7 @@
 #Food inventory tracker | Pattern Recognition | Track each item's inventory and get alerted when any of them reaches zero. 
 
 #Step 4: Draw a flowchart or write a pseudocode for the identified sub-problem
-# The cashier has to manually calculate totals and give change which can have human error and takes up some time.
+#2. The cashier has to manually calculate totals and give change which can have human error and takes up some time.
 
 START
 SET total TO 0
