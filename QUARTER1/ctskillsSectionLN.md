@@ -18,4 +18,4 @@
 
 #Change calculation | Algorithm Design | Make a program or an algorithm that adds all of the chosen items' price and minus that from the given payment to get the change.
 
-#Food inventory tracker | Pattern Recognition | Track each item's inventory and get alerted when any of them reaches zero.
+#Food inventory tracker | Pattern Recognition | Track each item's inventory and get alerted when any of them reaches zero. 
