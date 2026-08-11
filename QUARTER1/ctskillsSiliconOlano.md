@@ -1,7 +1,9 @@
 #Section: 9-Silicon                                                                                                                     Score:___
+
 #Name: Claire Marie S. Olano                                                                                                            Date: 11/08/26
 
 #Step 1: Identify the Big Problem
+
 #Main problem: The canteen is often crowded due to the slow and inefficient ways of handling. Some students take too long to decide what to order, no system to automatically calculate and give the change, and there is no system to track which food items are running out.
 
 #Step 2: Identify three to four Sub-Problems
@@ -24,22 +26,40 @@
 #2. The cashier has to manually calculate totals and give change which can have human error and takes up some time.
 
 START
+
 SET total TO 0
+
 PRINT "Enter number of items: "
+
 INPUT itemLength
+
 FOR counter FROM 1 TO itemLength DO
+
     PRINT "Enter item price: "
+    
     INPUT price
+    
     SET total TO total + price
+    
 END-FOR
+
 PRINT "Your total bill is: " + total
+
 PRINT "Enter your payment amount: "
+
 INPUT payment
+
 IF payment < total THEN
+
     PRINT "Invalid amount. Not enough"
+    
 ELSE
+
     SET change TO total - payment
+    
     PRINT "Your change is: " + change
+    
 END-IF
+
 END
 
