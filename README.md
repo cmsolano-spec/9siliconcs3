@@ -11,5 +11,5 @@
 ### Computational Thinking Skills
 [[View my Computational Thinking Exercise](https://github.com/cmsolano-spec/9siliconcs3/blob/main/QUARTER1/ctskillsSiliconOlano.md)]
 
-[[View my Computational Thinking Exercise]([https://github.com/cmsolano-spec/9siliconcs3/blob/main/QUARTER1/ctskillsSiliconOlano.md](https://github.com/cmsolano-spec/9siliconcs3/blob/main/QUARTER1/zodiacSiliconOlano.py))]
+[[View my Chinese Zodiac](https://github.com/cmsolano-spec/9siliconcs3/blob/main/QUARTER1/zodiacSiliconOlano.py)]
 
