@@ -28,15 +28,23 @@ Sub-Problem | CT Skill | Example Solution
 ### Pseudocode
 START
 Ask user for items selected prices
+
 Get the corresponding value
+
 Compute the total results
+
 Display results
+
 Ask user for payment 
+
 Compute the differences between results and payment
+
 IF payment less than results THEN
+
    Ask user for the remaining money
 
 ELSE
+
    Give the change
 
 END
