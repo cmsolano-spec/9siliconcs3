@@ -1,0 +1,45 @@
+# ILA 3-1: Applying the Four Pillars of OOP
+
+## Sari-Sari Store Inventory System
+
+### 1. Encapsulation
+Encapsulation can be used by creating a Product class that keeps all its data like name, price, and quantity togther. 
+The product's data can be protected sp that it can only be changed through addStock() and sellProduct() methods. 
+This keeeps the inventory data neat and organized, preventing accidental or invalid changes with the less use of multiple varibles.
+
+### 2. Abstraction
+Abstraction can be applaid by creating methods like sellProduct() or checkStock() without requiring the user to do or know all of the complicated steps. 
+For example, sellProduct() can automatically reduce the product's quantity and calculate the total cost. 
+The concept makes the system easier to use especially to new users because the complex processes are hidden behind simple operations.
+
+### 3. Inheritance
+Inheritance can be used if the store has different types of products that share common properties.
+For instance, a general Product class contains name, price, quantity, while classes like FoodProduct and CleaningProduct inherit these proterties and add their own specific informartion like the type of product. 
+This reduces repeated code that makes the code wordy and makes it easier to add new products even with differet categories. 
+
+### 4. Polymorphism
+Polymorphism allows different types of products to use same method in different ways.
+Additionally, a calculatePrice() method could be both used by FoodProduct and BulkProducts, but each class could calculate the proce in their own way and rules. 
+This makes the inventory system more flexible because the same method can be multifunctional working in different types of products.
+
+Visual Example:
+class FoodProduct(Product):
+    def calculate_price(self):
+        return 50
+
+class DrinkProduct(Product):
+    def calculate_price(self):
+        return 30
+
+products = [FoodProduct(), DrinkProduct()]
+
+for product in products:
+    print(product.calculate_price())
+
+## Reflection
+In conclusion, these four OOP pillars help organize the sari-sari store inventory system into reusable and manageable objects. 
+Encapsulation helps by keeping product data, like name, price, and quantity, and related functions inside a single class which protects the data from incorrect changes. 
+Meanwhile, abstraction simplifies the system for the user by hiding all of the complex details into showing the neccesary actions.
+Inheritance allows the new product types to reuse existing code found in the general product class and polymorphism lets the different types to behave different in their own way.
+Instead of having a messy and inefficent sytem, these concepts make the program easier to understand, maintain, and expand as the store add and sell more product.
+
