@@ -13,6 +13,7 @@ A Plants represents a plant that stores information about its characteristics. I
 
 ## Methods
 | Method | Description |
+|---|---|
 | name | string | The name or type of the plant | 
 | color | string | The color of the plant |
 | height | integer | The growth of the plant |
