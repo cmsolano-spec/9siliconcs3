@@ -15,7 +15,7 @@ A Plants represents a plant that stores information about its characteristics. I
 | Method | Description |
 |---|---|
 | waterplant() | Action to water the plants and turns water status to true |
-| grow(amount : double) | Increases the plant’s height by the inserted amount in centimeters |
+| grow(amount : float) | Increases the plant’s height by the inserted amount in centimeters |
 | displayinfo() | Displays the plant’s information |
 | needswater() | Tells user if the plant needs watering |
 
