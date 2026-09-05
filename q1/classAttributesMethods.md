@@ -20,9 +20,9 @@ Link to my previous activity:
 ## Python Implementation
 [View Python Source](https://github.com/cmsolano-spec/9siliconcs3/blob/main/q1/classImplementation.py)
 ## Test Run
-![Test Run](images/classTestRun.png)
+[Test Run](https://github.com/cmsolano-spec/9siliconcs3/blob/main/q1/images/images/classTestRun.png)
 ## Object Diagram
-![Object Diagram](images/objectDiagram.png)
+[Object Diagram](images/objectDiagram.png)
 ## Analysis
 ### Why did you make your chosen attribute private?
 ### Which method changes the state of your object?
