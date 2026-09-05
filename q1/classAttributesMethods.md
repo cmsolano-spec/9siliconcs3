@@ -22,7 +22,7 @@ Link to my previous activity:
 ## Test Run
 [Test Run](https://github.com/cmsolano-spec/9siliconcs3/blob/main/q1/images/classTestRun.png)
 ## Object Diagram
-[Object Diagram](images/objectDiagram.png)
+[Object Diagram](https://github.com/cmsolano-spec/9siliconcs3/blob/main/q1/images/%20%20objectDiagram.png)
 ## Analysis
 ### Why did you make your chosen attribute private?
 I chose the attributes height and water status to be private since I don't want the data to be easily changed and have multiple errors. These two are the most important parts so I want their data to be protected to ensure a precise documentation or recording of information.
