@@ -27,7 +27,7 @@ print(f"Basil's Information: \n Name: {basil.name} \n Color: {basil.color} \n He
 print(f"Cactus's Information: \n Name: {cactus.name} \n Color: {cactus.color} \n Height: {cactus._height} inches \n Water Status: {cactus._waterstatus} \n")
 
 print("Increasing Basil's height by 2 inches \n")
-basil.grow(2)
+basil._height = basil.grow(2)
 
 print("--- AFTER ---")
 print(f"Basil's Information: \n Name: {basil.name} \n Color: {basil.color} \n Height: {basil._height} inches \n Water Status: {basil._waterstatus} \n")
