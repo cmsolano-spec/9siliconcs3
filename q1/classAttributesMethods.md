@@ -10,14 +10,15 @@ Link to my previous activity:
 ## Visibility Decisions
 | Attribute | Data Type | Visibility | Reason |
 |---|---|---|---|
-| | | | |
-| | | | |
-| | | | |
-| | | | |
+| + name | string | public | It really doesn't matter much and can be changed anytime that it doesnt need that much protection |
+| + color |	string	| public | It is to easily identify and customize your plant |
+| - height	| integer	| private | The plant's height needs to be protected and only necessarily changed when needed to avoid confusion| 
+| - waterstatus	| boleen	| private | This needs to be protected to have an accurate monitoring |
+
 ## Updated UML Class Diagram
-![Class Diagram](images/classDiagramSG5.png)
+![Class Diagram](https://github.com/cmsolano-spec/9siliconcs3/blob/main/q1/images/ClassDiagram.png)
 ## Python Implementation
-[View Python Source](classImplementation.py)
+[View Python Source](https://github.com/cmsolano-spec/9siliconcs3/blob/main/q1/classImplementation.py)
 ## Test Run
 ![Test Run](images/classTestRun.png)
 ## Object Diagram
