@@ -6,10 +6,10 @@ A Plants represents a plant that stores information about its characteristics. I
 ## Properties
 | Property | Data Type | Description |
 |---|---|---|
-| name | string | The name or type of the plant | 
-| color | string | The color of the plant |
-| height | integer | The growth of the plant
-| waterstatus | boleen | If the plant needs water or not |
+| + name | string | The name or type of the plant | 
+| + color | string | The color of the plant |
+| - height | integer | The growth of the plant
+| - waterstatus | boleen | If the plant needs water or not |
 
 ## Methods
 | Method | Description |
@@ -17,6 +17,7 @@ A Plants represents a plant that stores information about its characteristics. I
 | waterplant() | Action to water the plants and turns water status to true |
 | grow(amount : double) | Increases the plant’s height by the inserted amount in centimeters |
 | displayinfo() | Displays the plant’s information |
+| needswater | Tells user if the plant needs watering |
 
 ## Class Diagram
 [Class Diagram](https://github.com/cmsolano-spec/9siliconcs3/blob/main/q1/images/classDiagram.png)
