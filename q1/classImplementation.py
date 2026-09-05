@@ -1,23 +1,31 @@
 class Plants:
   
   def __init__(self, name, color, height, waterstatus):
-    self.name = value1
-    self.color = value2
-    self.__private_height = value3
-    self.__private_waterstatus = false
+    self.name = name
+    self.color = color
+    self._height = height
+    self._waterstatus = waterstatus
     
   def waterplant(self):
-    self.__private_waterstatus = true
+    self.__waterstatus = True
     
   def grow(self, amount):
-    return self.__private_height + amount
+    return self._height + amount
 
   def displayinfo(self):
     print(f"The name of the plant is {self.name}")
     
   def needswater(self):
-    if self.__private_waterstatus is False:
+    if self._waterstatus is False:
       print("The plant needs to be watered")
     
-Basil = Plants("Basil", color="Green", __private_height=12)
-Cactus = Plants("Cactus", color="Light Green", __private_height=3)
+basil = Plants("Basil", "Green",12, False )
+cactus = Plants("Cactus", "Light Green",3, False )
+
+print("--- BEFORE ---")
+print(f"Basil's Information: \n Name: {basil.name} \n Color: {basil.color} \n Height: {basil._height} \n Water Status: {basil._waterstatus} \n")
+print(f"Cactus's Information: \n Name: {cactus.name} \n Color: {cactus.color} \n Height: {cactus._height} \n Water Status: {cactus._waterstatus} \n")
+
+print("--- AFTER ---")
+print(f"Basil's Information: \n Name: {basil.name} \n Color: {basil.color} \n Height: {basil.grow(2)} \n Water Status: {basil._waterstatus} \n")
+print(f"Cactus's Information: \n Name: {cactus.name} \n Color: {cactus.color} \n Height: {cactus._height} \n Water Status: {cactus._waterstatus} ")
