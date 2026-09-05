@@ -23,9 +23,9 @@ basil = Plants("Basil", "Green",12, False )
 cactus = Plants("Cactus", "Light Green",3, False )
 
 print("--- BEFORE ---")
-print(f"Basil's Information: \n Name: {basil.name} \n Color: {basil.color} \n Height: {basil._height} \n Water Status: {basil._waterstatus} \n")
-print(f"Cactus's Information: \n Name: {cactus.name} \n Color: {cactus.color} \n Height: {cactus._height} \n Water Status: {cactus._waterstatus} \n")
+print(f"Basil's Information: \n Name: {basil.name} \n Color: {basil.color} \n Height: {basil._height} inches \n Water Status: {basil._waterstatus} \n")
+print(f"Cactus's Information: \n Name: {cactus.name} \n Color: {cactus.color} \n Height: {cactus._height} inches \n Water Status: {cactus._waterstatus} \n")
 
 print("--- AFTER ---")
-print(f"Basil's Information: \n Name: {basil.name} \n Color: {basil.color} \n Height: {basil.grow(2)} \n Water Status: {basil._waterstatus} \n")
-print(f"Cactus's Information: \n Name: {cactus.name} \n Color: {cactus.color} \n Height: {cactus._height} \n Water Status: {cactus._waterstatus} ")
+print(f"Basil's Information: \n Name: {basil.name} \n Color: {basil.color} \n Height: {basil.grow(2)} inches \n Water Status: {basil._waterstatus} \n")
+print(f"Cactus's Information: \n Name: {cactus.name} \n Color: {cactus.color} \n Height: {cactus._height} inches \n Water Status: {cactus._waterstatus} ")
