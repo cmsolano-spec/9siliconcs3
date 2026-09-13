@@ -18,3 +18,5 @@
 [[View my OOPAct](https://github.com/cmsolano-spec/9siliconcs3/blob/main/q1/classObjectUML.md)]
 
 [[View my OOPAct Part 2](https://github.com/cmsolano-spec/9siliconcs3/blob/main/q1/classAttributesMethods.md)]
+
+[[View my OOPAct Part 2](https://github.com/cmsolano-spec/9siliconcs3/blob/main/q1/classRelationships.md)]
