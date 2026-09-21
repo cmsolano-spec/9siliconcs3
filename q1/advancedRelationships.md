@@ -15,7 +15,9 @@ Garden:
 
 ## Inheritance Relationship
 Parent: Plant
+
 Child: Sunflower
+
 Explanation: This is because Plants is a broad subject where it consists of different flowers, vegetables, fruits, trees, and shrubs. A Sunflower is a type of plants since it falls under flowers which is a type of plant.
 
 ## Inheritance UML
