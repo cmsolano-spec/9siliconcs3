@@ -19,3 +19,5 @@
 [[View my OOPAct Part 2](https://github.com/cmsolano-spec/9siliconcs3/blob/main/q1/classAttributesMethods.md)]
 
 [[View my OOPAct Part 3](https://github.com/cmsolano-spec/9siliconcs3/blob/main/q1/classRelationships.md)]
+
+[[View my OOPAct Part 4](https://github.com/cmsolano-spec/9siliconcs3/blob/main/q1/advancedRelationships.md)]
