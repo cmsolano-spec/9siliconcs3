@@ -37,7 +37,23 @@ Explanation: This is because Plants can live and exist even if Garden is deleted
 ## Test Run
 ![Test](https://github.com/cmsolano-spec/9siliconcs3/blob/main/q1/images/advancedTestRun.png)
 ## Object Diagram
-![Objects](images/advancedObjectDiagram.png)
+![Objects](https://github.com/cmsolano-spec/9siliconcs3/blob/main/q1/images/advancedObjectDiagram.png)
 
 ## Reflection
 Answers:**
+1. Why did you choose your inheritance relationship? Explain why your child class is a type of your parent class.
+- I chose the Inheritance relationship between Plants and Sunflower because a sunflower is a type of plant. Sunflowers has the basic characteristics of a plant, like its name, color, height, and water status. I also added an attribute where it tells you the quantity of the Sunflowers for easier management. This makes Sunflower a type and child of my parent class, Plants.
+
+2. How did inheritance reduce duplicate code? Identify attributes or methods that were reused.
+- Inheritance allowed my Class Sunflower to get all of the attributes of the Plants class. I used super().__init__() so I don't have to write the same attribute again and again. This also lessen the wordiness of my code. 
+
+3. Why is your HAS-A relationship Composition or Aggregation? Explain the lifecycle relationship between the two objects.
+- My Class Garden and Class Plants relationship is Aggregation because a garden contains plants, but the plants can still exist separately with out without the garden. For example, basil and cactus objects can still exist even if the Garden is remove. This means that they have a weak HAS-A relationship.
+
+4. What is the difference between Association from Part III and the advanced relationship you implemented?
+- The Association from Part 3 OOPACT showed that Class Garden is connected to Plants because a garden can have plants. Meanwhile, in this partn I used a more specific relationship which is Aggregation. Aggregation explains that a Garden contains Plants while the Plants can still exist independently.
+
+5. How does your design follow the DRY principle?
+- My design follows the DRY principle by putting plant attributes and methods in the parent Plant class. Then I made another class, Sunflower, that can reuse the attributes name, color, height, and water status while adding its own attribute, which counts how many sunflowers there are. This reduces the wordiness of my code and makes it more efficient, especially when I have to make multiple classes.
+
+
