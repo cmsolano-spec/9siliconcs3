@@ -23,8 +23,13 @@ Explanation: This is because Plants is a broad subject where it consists of diff
 ## Inheritance UML
 ![Inheritance](images/inheritanceDiagram.png)
 ## Composition/Aggregation
-Relationship:
-Explanation:
+Relationship: Aggregation/Weak HAS-A relationship
+
+Class containing another object: GardenClass
+
+Contained object: Plants 
+
+Explanation: This is because Plants can live and exist even if Garden is deleted or removed.
 ## Advanced UML Diagram
 ![Advanced UML](images/advancedClassDiagram.png)
 ## Python Implementation
