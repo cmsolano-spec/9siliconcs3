@@ -21,7 +21,7 @@ Child: Sunflower
 Explanation: This is because Plants is a broad subject where it consists of different flowers, vegetables, fruits, trees, and shrubs. A Sunflower is a type of plants since it falls under flowers which is a type of plant.
 
 ## Inheritance UML
-![Inheritance](images/inheritanceDiagram.png)
+![Inheritance](https://github.com/cmsolano-spec/9siliconcs3/blob/main/q1/images/inheritanceDiagram.png)
 ## Composition/Aggregation
 Relationship: Aggregation/Weak HAS-A relationship
 
@@ -31,11 +31,11 @@ Contained object: Plants
 
 Explanation: This is because Plants can live and exist even if Garden is deleted or removed.
 ## Advanced UML Diagram
-![Advanced UML](images/advancedClassDiagram.png)
+![Advanced UML](https://github.com/cmsolano-spec/9siliconcs3/blob/main/q1/images/advancedClassDiagram.png)
 ## Python Implementation
-[Source Code](advancedRelationships.py)
+[Source Code](https://github.com/cmsolano-spec/9siliconcs3/blob/main/q1/advancedRelationships.py)
 ## Test Run
-![Test](images/advancedTestRun.png)
+![Test](https://github.com/cmsolano-spec/9siliconcs3/blob/main/q1/images/advancedTestRun.png)
 ## Object Diagram
 ![Objects](images/advancedObjectDiagram.png)
 
