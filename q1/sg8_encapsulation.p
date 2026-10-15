@@ -1,0 +1,40 @@
+class BankAccount:
+    def __init__(self, account_number, balance):
+        self.__account_number = account_number
+        self.balance = balance
+        
+    @property
+    def account_number(self):
+        return self.__account_number       
+    @property
+    def balance(self):
+        return self.__balance
+        
+    @account_number.setter
+    def account_number(self, account_number):
+        self.__account_number = account_number
+    
+    @balance.setter
+    def balance (self, new_balance):
+        if new_balance >= 0:
+            self.__balance = new_balance
+        else:
+            self.__balance = None
+        
+        
+    def display_info(self):
+        print(f"Account Number: {self.__account_number}")
+        if self.__balance is not None :
+            print(f"Balance: {self.__balance} \n")
+        else:
+            print("The balance must not be a negative number")
+            
+print("Account 1")
+a1 = BankAccount(12345,1000)
+a1.display_info()
+
+print("Update balance to -100")
+a2 = BankAccount(12345, -100)
+a2.display_info()
+a1.display_info()
+
