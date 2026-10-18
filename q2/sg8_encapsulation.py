@@ -13,7 +13,7 @@ class BankAccount:
 
     #setter and getter methods for balance
     def set_balance(self, balance):
-        if balance > 0:
+        if balance >= 0:
             self.__balance = balance
         
             
@@ -23,16 +23,16 @@ class BankAccount:
 a1 = BankAccount(12345, 1000) #Object
 print("Account 1:")
 print(f"Account name: {a1.get_account_name()}") #print the Bank account's name
-print(f"Balance: {a1.get_balance()} \n" ) #balance
+print(f"Balance: {a1.get_balance():.2f} \n" ) #balance
 
 Input = -100 #Input of the user
 a1.set_balance(Input) #sets the new balance
 
-print(f"Update balance to {Input}") #Shows updates
+print(f"Update balance to {Input:.2f}") #Shows updates
 if a1.set_balance(Input) is not None: #If not NOne(which is negative), continue print
-    print(f"Balance: {a1.get_balance()}")
+    print(f"Balance: {a1.get_balance():.2f}")
 else:
     print("The balance must not be a negative number") #tells user invalid input
 
 print(f"Account name: {a1.get_account_name()}") #print the Bank account's name
-print(f"Balance: {a1.get_balance()}") #balance
+print(f"Balance: {a1.get_balance():.2f}") #balance
