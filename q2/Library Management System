@@ -74,6 +74,13 @@ pub2 = Publication("Claire Marie Olano", "CS Program")
 book2 = Book("Reyne", "Mryla", 5201413)
 mag2 = Magazine("How to better in ComSci", "9 - Silicon", -99)
 
+
+print("Publication Information:")
+pub1.display_info()
+
+book1.display_info()
+mag1.display_info()
+
 print("Publication Information:")
 pub2.display_info()
 
