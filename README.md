@@ -21,3 +21,9 @@
 [[View my OOPAct Part 3](https://github.com/cmsolano-spec/9siliconcs3/blob/main/q1/classRelationships.md)]
 
 [[View my OOPAct Part 4](https://github.com/cmsolano-spec/9siliconcs3/blob/main/q1/advancedRelationships.md)]
+
+# Quarter 1
+## Activities
+[[View my Encapsulation](https://github.com/cmsolano-spec/9siliconcs3/blob/main/q2/sg8_encapsulation.py)]
+
+[View my Library Management System](https://github.com/cmsolanospec/9siliconcs3/blob/main/q2/Library%20Management%20System)]
