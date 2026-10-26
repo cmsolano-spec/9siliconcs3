@@ -22,7 +22,7 @@
 
 [[View my OOPAct Part 4](https://github.com/cmsolano-spec/9siliconcs3/blob/main/q1/advancedRelationships.md)]
 
-# Quarter 1
+# Quarter 2
 ## Activities
 [[View my Encapsulation](https://github.com/cmsolano-spec/9siliconcs3/blob/main/q2/sg8_encapsulation.py)]
 
