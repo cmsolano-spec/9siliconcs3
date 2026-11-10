@@ -29,3 +29,11 @@
 [[View my Library Management System](https://github.com/cmsolano-spec/9siliconcs3/blob/main/q2/Library%20Management%20System)]
 
 [[View my Zoo Management System](https://github.com/cmsolano-spec/9siliconcs3/blob/main/q2/Zoo%20management%20system.py)]
+
+[[View my Activity 1 in Polymorphism](https://github.com/cmsolano-spec/9siliconcs3/blob/main/q2/Activity%201(Polymorphism).py)]
+
+
+[[View my Activity 2 in Polymorphism](https://github.com/cmsolano-spec/9siliconcs3/blob/main/q2/Activity%202(Polymorphism))]
+
+
+
