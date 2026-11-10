@@ -1,0 +1,36 @@
+1) 
+a. "Duck typing" is just another way to achieve polymorphism besides Inheritance.
+b.  The Car class needed to have the same method as the one mentioned in the loop. The previous method name was honk, but the method in the loop is animal.speak(), which the Car class doesn't have, causing an error. So, the Car class needed to change it to speak, since the object must have the minimum necessary method. 
+
+2.
+class Car:
+  def move(self):
+    print("The car drives on the road.")
+
+  def start_trip(self,vehicle):
+    vehicle.move()
+    
+class Boat:
+  def move(self):
+    print("The boat sails on water.")
+
+  def start_trip(self,vehicle):
+    vehicle.move()
+
+class Drone:
+  def move(self):
+    print("The drone flies in the sky.")
+
+  def start_trip(self,vehicle):
+    vehicle.move()
+
+car1 = Car()
+boat1 = Boat()
+drone1 = Drone()
+
+print("Output:")
+vehicles = [car1, boat1, drone1]
+for vehicle in vehicles:
+  vehicle.start_trip(vehicle)
+
+3. The code demonstarts polymorphism because it hows how a single method is used in many distinct ways depending on the different classes. The different classes respond differently to the same method in their own unique way because of polymorphism. 
